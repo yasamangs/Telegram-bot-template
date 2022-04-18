@@ -4,20 +4,20 @@ All the basic needs for creating a Telegram Bot.
 
 ## How to run
 
-First add `src` to `PYTHONPATH` and assign your `Bot Token` to a variable by type
+First add `src` to `PYTHONPATH` and set your `Bot Token` to a variable by type
 
-```Cancel changes
+```
 export PYTHONPATH=${PWD}
 ```
 and 
 ```
-export BOT_TOKEN='the given Bot Token'
+export BOT_TOKEN=<given Bot Token>
 ```
 in the terminal.
 
 
-then run
+Finally run
 
 ```
-python src/bot.py
+python src/run .py 
 ```
